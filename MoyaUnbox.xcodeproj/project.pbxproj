@@ -9,6 +9,35 @@
 /* Begin PBXBuildFile section */
 		D90A04DC1D631A79006A6512 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A04DA1D631A71006A6512 /* GithubAPI.swift */; };
 		D90A04DE1D631AFD006A6512 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A04DD1D631AFD006A6512 /* GithubAPI.swift */; };
+		D90A04E01D631E07006A6512 /* Observable+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A04DF1D631E07006A6512 /* Observable+Unbox.swift */; };
+		D90A04E11D631E5A006A6512 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A21D61CC550020BF66 /* Unbox.framework */; };
+		D90A04E21D631E5A006A6512 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A01D61CC550020BF66 /* Result.framework */; };
+		D90A04E31D631E5A006A6512 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D329F1D61CC550020BF66 /* Alamofire.framework */; };
+		D90A04E71D631E5A006A6512 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E41D631E5A006A6512 /* RxMoya.framework */; };
+		D90A04E81D631E5A006A6512 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E51D631E5A006A6512 /* RxSwift.framework */; };
+		D90A04E91D631E5A006A6512 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E61D631E5A006A6512 /* RxCocoa.framework */; };
+		D90A04F41D631E83006A6512 /* RxMoyaUnbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D327F1D61C11E0020BF66 /* RxMoyaUnbox.framework */; };
+		D90A04FA1D631EA0006A6512 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A21D61CC550020BF66 /* Unbox.framework */; };
+		D90A04FB1D631EA0006A6512 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E41D631E5A006A6512 /* RxMoya.framework */; };
+		D90A04FC1D631EA0006A6512 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E51D631E5A006A6512 /* RxSwift.framework */; };
+		D90A04FD1D631EA0006A6512 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E61D631E5A006A6512 /* RxCocoa.framework */; };
+		D90A04FE1D631EA0006A6512 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A01D61CC550020BF66 /* Result.framework */; };
+		D90A04FF1D631EA0006A6512 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32C31D61EAB60020BF66 /* Quick.framework */; };
+		D90A05001D631EA0006A6512 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32C21D61EAB60020BF66 /* Nimble.framework */; };
+		D90A05011D631EA0006A6512 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D329F1D61CC550020BF66 /* Alamofire.framework */; };
+		D90A05031D631EBD006A6512 /* RxMoya.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E41D631E5A006A6512 /* RxMoya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05041D631EBD006A6512 /* RxSwift.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E51D631E5A006A6512 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05051D631EBD006A6512 /* RxCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D90A04E61D631E5A006A6512 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05061D631EBD006A6512 /* Nimble.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32C21D61EAB60020BF66 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05071D631EBD006A6512 /* Quick.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32C31D61EAB60020BF66 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05081D631EBD006A6512 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D92D329F1D61CC550020BF66 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A05091D631EBE006A6512 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A01D61CC550020BF66 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A050A1D631EBE006A6512 /* Unbox.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A21D61CC550020BF66 /* Unbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D90A050F1D633185006A6512 /* RxMoyaUnboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A050D1D633185006A6512 /* RxMoyaUnboxTests.swift */; };
+		D90A05111D633199006A6512 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A05101D633199006A6512 /* GithubAPI.swift */; };
+		D90A05121D6331B2006A6512 /* DemoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32DF1D6209830020BF66 /* DemoHelpers.swift */; };
+		D90A05131D6331B4006A6512 /* GHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32E01D6209830020BF66 /* GHUser.swift */; };
+		D90A05141D6331B7006A6512 /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32E21D6209830020BF66 /* HelperExtensions.swift */; };
 		D92D329C1D61C18B0020BF66 /* Response+Unbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D329B1D61C18B0020BF66 /* Response+Unbox.swift */; };
 		D92D32A31D61CC550020BF66 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D329F1D61CC550020BF66 /* Alamofire.framework */; };
 		D92D32A41D61CC550020BF66 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32A01D61CC550020BF66 /* Result.framework */; };
@@ -60,6 +89,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D90A04F51D631E83006A6512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D96B77B71D61BBE100993185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92D327E1D61C11E0020BF66;
+			remoteInfo = RxMoyaUnbox;
+		};
 		D92D32B31D61DD440020BF66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D96B77B71D61BBE100993185 /* Project object */;
@@ -77,6 +113,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D90A05021D631EA3006A6512 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D90A05031D631EBD006A6512 /* RxMoya.framework in Copy Frameworks */,
+				D90A05041D631EBD006A6512 /* RxSwift.framework in Copy Frameworks */,
+				D90A05051D631EBD006A6512 /* RxCocoa.framework in Copy Frameworks */,
+				D90A05061D631EBD006A6512 /* Nimble.framework in Copy Frameworks */,
+				D90A05071D631EBD006A6512 /* Quick.framework in Copy Frameworks */,
+				D90A05081D631EBD006A6512 /* Alamofire.framework in Copy Frameworks */,
+				D90A05091D631EBE006A6512 /* Result.framework in Copy Frameworks */,
+				D90A050A1D631EBE006A6512 /* Unbox.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D92D32C61D61EEDC0020BF66 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,6 +170,14 @@
 /* Begin PBXFileReference section */
 		D90A04DA1D631A71006A6512 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		D90A04DD1D631AFD006A6512 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		D90A04DF1D631E07006A6512 /* Observable+Unbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Unbox.swift"; sourceTree = "<group>"; };
+		D90A04E41D631E5A006A6512 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		D90A04E51D631E5A006A6512 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D90A04E61D631E5A006A6512 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D90A04EF1D631E83006A6512 /* RxMoyaUnboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMoyaUnboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90A050C1D633185006A6512 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90A050D1D633185006A6512 /* RxMoyaUnboxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxMoyaUnboxTests.swift; sourceTree = "<group>"; };
+		D90A05101D633199006A6512 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		D92D327F1D61C11E0020BF66 /* RxMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92D328C1D61C12D0020BF66 /* ReactiveMoyaUnbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoyaUnbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92D32961D61C1830020BF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,10 +207,32 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D90A04EC1D631E83006A6512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A04FA1D631EA0006A6512 /* Unbox.framework in Frameworks */,
+				D90A04FB1D631EA0006A6512 /* RxMoya.framework in Frameworks */,
+				D90A04FC1D631EA0006A6512 /* RxSwift.framework in Frameworks */,
+				D90A04FD1D631EA0006A6512 /* RxCocoa.framework in Frameworks */,
+				D90A04FE1D631EA0006A6512 /* Result.framework in Frameworks */,
+				D90A04FF1D631EA0006A6512 /* Quick.framework in Frameworks */,
+				D90A05001D631EA0006A6512 /* Nimble.framework in Frameworks */,
+				D90A05011D631EA0006A6512 /* Alamofire.framework in Frameworks */,
+				D90A04F41D631E83006A6512 /* RxMoyaUnbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D92D327B1D61C11E0020BF66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90A04E71D631E5A006A6512 /* RxMoya.framework in Frameworks */,
+				D90A04E81D631E5A006A6512 /* RxSwift.framework in Frameworks */,
+				D90A04E91D631E5A006A6512 /* RxCocoa.framework in Frameworks */,
+				D90A04E11D631E5A006A6512 /* Unbox.framework in Frameworks */,
+				D90A04E21D631E5A006A6512 /* Result.framework in Frameworks */,
+				D90A04E31D631E5A006A6512 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +291,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90A050B1D633185006A6512 /* RxMoyaUnboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90A05101D633199006A6512 /* GithubAPI.swift */,
+				D90A050C1D633185006A6512 /* Info.plist */,
+				D90A050D1D633185006A6512 /* RxMoyaUnboxTests.swift */,
+			);
+			path = RxMoyaUnboxTests;
+			sourceTree = "<group>";
+		};
 		D92D32951D61C1830020BF66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +317,7 @@
 			children = (
 				D92D329B1D61C18B0020BF66 /* Response+Unbox.swift */,
 				D92D32CE1D6204A10020BF66 /* SignalProducer+Unbox.swift */,
+				D90A04DF1D631E07006A6512 /* Observable+Unbox.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -230,6 +325,9 @@
 		D92D32A71D61CC5A0020BF66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D90A04E41D631E5A006A6512 /* RxMoya.framework */,
+				D90A04E51D631E5A006A6512 /* RxSwift.framework */,
+				D90A04E61D631E5A006A6512 /* RxCocoa.framework */,
 				D92D32D41D6205930020BF66 /* ReactiveCocoa.framework */,
 				D92D32D51D6205930020BF66 /* ReactiveMoya.framework */,
 				D92D32C21D61EAB60020BF66 /* Nimble.framework */,
@@ -250,6 +348,7 @@
 				D92D32E21D6209830020BF66 /* HelperExtensions.swift */,
 				D92D32E31D6209830020BF66 /* MoyaUnboxTests */,
 				D92D32FB1D6209CB0020BF66 /* ReactiveMoyaUnboxTests */,
+				D90A050B1D633185006A6512 /* RxMoyaUnboxTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -293,6 +392,7 @@
 				D92D328C1D61C12D0020BF66 /* ReactiveMoyaUnbox.framework */,
 				D92D32AD1D61DD440020BF66 /* MoyaUnboxTests.xctest */,
 				D92D32F01D6209B10020BF66 /* ReactiveMoyaUnboxTests.xctest */,
+				D90A04EF1D631E83006A6512 /* RxMoyaUnboxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -324,6 +424,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D90A04EE1D631E83006A6512 /* RxMoyaUnboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90A04F71D631E83006A6512 /* Build configuration list for PBXNativeTarget "RxMoyaUnboxTests" */;
+			buildPhases = (
+				D90A04EB1D631E83006A6512 /* Sources */,
+				D90A04EC1D631E83006A6512 /* Frameworks */,
+				D90A04ED1D631E83006A6512 /* Resources */,
+				D90A05021D631EA3006A6512 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90A04F61D631E83006A6512 /* PBXTargetDependency */,
+			);
+			name = RxMoyaUnboxTests;
+			productName = RxMoyaUnboxTests;
+			productReference = D90A04EF1D631E83006A6512 /* RxMoyaUnboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D92D327E1D61C11E0020BF66 /* RxMoyaUnbox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D92D32861D61C11E0020BF66 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox" */;
@@ -332,6 +451,7 @@
 				D92D327B1D61C11E0020BF66 /* Frameworks */,
 				D92D327C1D61C11E0020BF66 /* Headers */,
 				D92D327D1D61C11E0020BF66 /* Resources */,
+				D90A04EA1D631E62006A6512 /* Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +547,9 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
+					D90A04EE1D631E83006A6512 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					D92D327E1D61C11E0020BF66 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -461,11 +584,19 @@
 				D92D328B1D61C12D0020BF66 /* ReactiveMoyaUnbox */,
 				D92D32AC1D61DD440020BF66 /* MoyaUnboxTests */,
 				D92D32EF1D6209B10020BF66 /* ReactiveMoyaUnboxTests */,
+				D90A04EE1D631E83006A6512 /* RxMoyaUnboxTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D90A04ED1D631E83006A6512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D92D327D1D61C11E0020BF66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -504,6 +635,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D90A04EA1D631E62006A6512 /* Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		D92D32A81D61CC730020BF66 /* Carthage Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -535,10 +680,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D90A04EB1D631E83006A6512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90A05121D6331B2006A6512 /* DemoHelpers.swift in Sources */,
+				D90A05131D6331B4006A6512 /* GHUser.swift in Sources */,
+				D90A05141D6331B7006A6512 /* HelperExtensions.swift in Sources */,
+				D90A050F1D633185006A6512 /* RxMoyaUnboxTests.swift in Sources */,
+				D90A05111D633199006A6512 /* GithubAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D92D327A1D61C11E0020BF66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90A04E01D631E07006A6512 /* Observable+Unbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +743,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D90A04F61D631E83006A6512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92D327E1D61C11E0020BF66 /* RxMoyaUnbox */;
+			targetProxy = D90A04F51D631E83006A6512 /* PBXContainerItemProxy */;
+		};
 		D92D32B41D61DD440020BF66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D96B77BF1D61BBE100993185 /* MoyaUnbox */;
@@ -598,29 +761,70 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D90A04F81D631E83006A6512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/RxMoyaUnboxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.javilorbada.RxMoyaUnboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D90A04F91D631E83006A6512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Tests/RxMoyaUnboxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.javilorbada.RxMoyaUnboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		D92D32841D61C11E0020BF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.javilorbada.RxMoyaUnbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D92D32851D61C11E0020BF66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -864,6 +1068,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D90A04F71D631E83006A6512 /* Build configuration list for PBXNativeTarget "RxMoyaUnboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90A04F81D631E83006A6512 /* Debug */,
+				D90A04F91D631E83006A6512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D92D32861D61C11E0020BF66 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
