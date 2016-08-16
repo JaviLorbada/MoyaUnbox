@@ -19,6 +19,7 @@ class ReactiveMoyaUnboxTests: QuickSpec {
       provider.request(.UserProfile("JaviLorbada"))
         .filterSuccessfulStatusCodes()
         .mapObject(GHUser)
+        .observeOn(UIScheduler())
         .startWithResult { result in
         if let user = result.value {
           print("User: \(user)")
@@ -34,6 +35,7 @@ class ReactiveMoyaUnboxTests: QuickSpec {
       provider.request(.Users)
         .filterSuccessfulStatusCodes()
         .mapArray(GHUser)
+        .observeOn(UIScheduler())
         .startWithResult { result in
           if let users = result.value {
             print("Users: \(users)")

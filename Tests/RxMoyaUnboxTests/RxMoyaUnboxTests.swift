@@ -19,6 +19,7 @@ class ReactiveMoyaUnboxTests: QuickSpec {
       provider.request(.UserProfile("JaviLorbada"))
         .filterSuccessfulStatusCodes()
         .mapObject(GHUser)
+        .observeOn(MainScheduler.instance)
         .subscribe(onNext: { user in
           print("User: \(user)")
           equal = user == javiGHUser
@@ -34,6 +35,7 @@ class ReactiveMoyaUnboxTests: QuickSpec {
       provider.request(.Users)
         .filterSuccessfulStatusCodes()
         .mapArray(GHUser)
+        .observeOn(MainScheduler.instance)
         .subscribe(onNext: { users in
           print("Users: \(users)")
           GHUsers = users
