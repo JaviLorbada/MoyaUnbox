@@ -86,6 +86,9 @@
 		D92D330F1D620B060020BF66 /* DemoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32DF1D6209830020BF66 /* DemoHelpers.swift */; };
 		D92D33101D620B060020BF66 /* GHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32E01D6209830020BF66 /* GHUser.swift */; };
 		D92D33121D620B060020BF66 /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D32E21D6209830020BF66 /* HelperExtensions.swift */; };
+		D95C607E1D66FB5600350C5E /* MoyaUnbox.h in Headers */ = {isa = PBXBuildFile; fileRef = D92D32971D61C1830020BF66 /* MoyaUnbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95C607F1D66FB5D00350C5E /* ReactiveMoyaUnbox.h in Headers */ = {isa = PBXBuildFile; fileRef = D92D32981D61C1830020BF66 /* ReactiveMoyaUnbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D95C60801D66FB6100350C5E /* RxMoyaUnbox.h in Headers */ = {isa = PBXBuildFile; fileRef = D92D32991D61C1830020BF66 /* RxMoyaUnbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -404,6 +407,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95C60801D66FB6100350C5E /* RxMoyaUnbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95C607F1D66FB5D00350C5E /* ReactiveMoyaUnbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +423,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95C607E1D66FB5600350C5E /* MoyaUnbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,6 +1081,7 @@
 				D90A04F91D631E83006A6512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D92D32861D61C11E0020BF66 /* Build configuration list for PBXNativeTarget "RxMoyaUnbox" */ = {
 			isa = XCConfigurationList;
