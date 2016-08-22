@@ -6,4 +6,4 @@ if ! command -v carthage > /dev/null; then
   exit 1
 fi
 
-carthage update --platform iOS --no-use-binaries --verbose
+carthage update --platform iOS,tvOS --no-use-binaries --verbose
