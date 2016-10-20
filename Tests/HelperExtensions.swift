@@ -18,5 +18,5 @@ extension String {
 }
 
 func url(route: TargetType) -> String {
-  return route.baseURL.URLByAppendingPathComponent(route.path).absoluteString
+  return route.baseURL.URLByAppendingPathComponent(route.path)!.absoluteString!
 }

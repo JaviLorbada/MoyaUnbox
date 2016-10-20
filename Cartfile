@@ -1,2 +1,2 @@
-github "johnsundell/unbox" "1.9"
-github "Moya/Moya" "7.0.0"
+github "johnsundell/unbox" "swift2"
+github "Moya/Moya" "7.0.3"
